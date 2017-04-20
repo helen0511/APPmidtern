@@ -2,14 +2,7 @@ import React, { Component } from 'react';
 import { ScrollView, Image, Linking, StyleSheet } from 'react-native';
 import { List, ListItem, Button, Icon, Text, Tile } from 'react-native-elements';
 
- const Logout = (props) => {
-    const { title,
-      artist,
-      price,
-      url,
-      image,
-      descriptions
-  } = props.navigation.state.params;
+ const Logout = () => {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
