@@ -49,6 +49,9 @@ export const AccountStack = StackNavigator({
 /*  Logout: {
     screen: Logout,
     navigationOptions: {
+      header: () => ({
+        title: 'Please Login Again',
+      })
     },
   }*/
 });
