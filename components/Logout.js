@@ -3,7 +3,7 @@ import { ScrollView, Image, Linking, StyleSheet } from 'react-native';
 import { List, ListItem, Button, Icon, Text, Tile,View } from 'react-native-elements';
 
  const Logout = () => {
-   const { welcome,horizontal,texts,box,block } = styles;
+ //  const { welcome,horizontal,texts,box,block } = styles;
   return (
     <ScrollView style={{ backgroundColor: '#4682b4' }}>
       <Text style={styles.welcome}>
@@ -15,23 +15,23 @@ import { List, ListItem, Button, Icon, Text, Tile,View } from 'react-native-elem
       <Text style={styles.welcome}>
         Learn Englishs
         </Text>
-      <View style={styles.block}>
-        <View style={styles.horizontal}>
-          <Text style={styles.texts}>Username:</Text>
-          <View style={styles.box}>
-          </View>
-        </View>
-      </View>
-      <View style={styles.block}>
-        <View style={styles.horizontal}>
-          <Text style={styles.texts}>Password:</Text>
-          <View style={styles.box}>            
-          </View>
-        </View>
-      </View>
+      <Text style={styles.welcome}>
+        
+        </Text>
+        <List>
+          <ListItem
+            title="Username:"
+            hideChevron
+          />
+          <ListItem
+            title="Password:"
+            hideChevron
+          />
+        </List>
+
     </ScrollView>
   );
-}
+};
 
 const styles = {
     block: {
@@ -55,15 +55,19 @@ const styles = {
       flex: 1,
     },
     texts: {
-      left: 15, top: 10,
-      color: '#4682b4',
+      left: 30, 
+      top: 50,
+      color: 'black',
       fontSize: 16,
       fontWeight: 'bold',
     },
     welcome: {
+      top: 20,
+      bottom: 60,
       fontSize: 30,
       textAlign: 'center',
       margin: 10,
+      color: 'white',
     },
-}
+};
 export default Logout;
