@@ -9,6 +9,7 @@ import Change from './components/Change';
 import Logout from './components/Logout';
 import Setting from './components/Setting';
 import Collection from './components/Collection';
+import lan from './components/lan';
 
 export const ChannelStack = StackNavigator({
   Channel: {
@@ -45,15 +46,15 @@ export const AccountStack = StackNavigator({
         title: 'Change your Photo',
       })
     },
-  }
-/*  Logout: {
+  },
+  Logout: {
     screen: Logout,
     navigationOptions: {
       header: () => ({
         title: 'Please Login Again',
       })
     },
-  }*/
+  },
 });
 
 export const SettingStack = StackNavigator({
@@ -65,6 +66,14 @@ export const SettingStack = StackNavigator({
       })
     },
   },
+  lan: {
+screen:lan,
+navigationOptions: {
+header: () => ({
+ title: 'LANGUAGE',
+})
+ },
+ },
 });
 export const CollectionStack = StackNavigator({
   Collection: {
