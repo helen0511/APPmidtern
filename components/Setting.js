@@ -1,31 +1,55 @@
-import React from 'react';
+import React,{ Component} from 'react';
 import { ScrollView } from 'react-native';
 import { List, ListItem } from 'react-native-elements';
 
-// Make a component
-const Contact = () => {
+class Setting extends Component {
 
-  return (
-      <ScrollView>
+
+  goToPageTwo = () => {
+    this.props.navigation.navigate('lan');
+  };
+
+  render(){
+ return (
+      <ScrollView style={{backgroundColor:'#4682b4'}}>
         <List>
           <ListItem
-            title="Notifications"
+            leftIcon={{name: 'color-lens'}}
+            title="Color Of Theme"
           />
           <ListItem
-            title="Profile"
+          leftIcon={{name:'translate'}}
+            title="Language"
+               onPress={() => this.goToPageTwo()}
           />
           <ListItem
-            title="Password"
+          leftIcon={{name:'people'}}
+            title="Invite Friends"
+          />
+          <ListItem
+          leftIcon={{name:'history'}}
+            title="History"
           />
         </List>
+
         <List>
           <ListItem
-            title="Sign Out"
-            rightIcon={{ name: 'cancel' }}
+          leftIcon={{name:'notifications'}}
+            title="Notification"
+          />
+          <ListItem
+            leftIcon={{name:'description'}}
+            title="Policy"
+          />
+           <ListItem
+            leftIcon={{name:'apps'}}
+            title="Ver"
+            rightTitle="1.5.1"
+            hideChevron
           />
         </List>
       </ScrollView>
   );
 };
-
-export default Contact;
+  }
+export default Setting;

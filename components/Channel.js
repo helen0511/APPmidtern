@@ -44,7 +44,7 @@ return (
         <Text style={tit}>BRITISH COUNCIL KIDS</Text>
             <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/results?search_query=british+council+learn+english+kids')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -62,7 +62,7 @@ return (
         <Text style={tit2}>CNN CHANNEL</Text>
            <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/user/CNN')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -78,7 +78,7 @@ return (
         <Text style={tit2}>DAILY ENGLISH</Text> 
            <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/channel/UCV1h_cBE0Drdx19qkTM0WNw')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -96,7 +96,7 @@ return (
         <Text style={tit2}>ETS TOEFL</Text>
      <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/user/TOEFLtv')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -112,7 +112,7 @@ return (
         <Text style={tit2}>RA-DU ENGLISH</Text>
        <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/channel/UCeo3JwE3HezUWFdVcehQk9Q')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -130,7 +130,7 @@ return (
         <Text style={tit2}>VOICE OF AMERICA</Text>
             <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL('https://www.youtube.com/user/bbclearningenglish')}
+          onPress={() => Linking.openURL('https://www.youtube.com/user/VOALearningEnglish')}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
@@ -146,7 +146,7 @@ return (
         <Text style={tit2}>VOICETUBE</Text>
        <Button 
         title='Learn More >' 
-          onPress={() => Linking.openURL("https://www.youtube.com/user/bbclearningenglish")}
+          onPress={() => Linking.openURL("https://www.youtube.com/channel/UCa99X86NjYZzhz__nLKgPPg")}
           backgroundColor='#4682b4'
           color='#dae6f0'
           fontSize='10'
